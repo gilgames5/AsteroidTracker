@@ -31,7 +31,7 @@
 
             <TextBlock>
                 <Run Text="Football Fields Comparison: "/>
-                <Run Text="{Binding FootballFieldsComparison}"/>
+                <Run Text="{Binding FootballFieldsComparison, Mode=OneWay}"/>
             </TextBlock>
 
             <TextBlock>
